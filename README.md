@@ -4,7 +4,7 @@ A mini AI Learning Dashboard built with **Next.js 16** (web) and **React Native 
 
 ## Live Demo
 
-> Deployment link: _[Add your Vercel URL here after deploying]_
+> Deployment link: _[https://ai-learn-brown.vercel.app/]_
 
 ## Features
 
