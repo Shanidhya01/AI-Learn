@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.theme-light {
+  --bg:          #f5f3ee;
+  --bg2:         #ffffff;
+  --bg3:         #edeae3;
+  --surface:     #ffffff;
+  --border:      #e0dbd1;
+  --border2:     #ccc8be;
+  --text:        #111009;
+  --text2:       #5c5a52;
+  --text3:       #9c9a90;
+  --sidebar-bg:  #111009;
+  --sidebar-txt: #e8e6e0;
+  --sidebar-mut: #484640;
+  --sidebar-brd: rgba(255,255,255,0.06);
+  --shadow-sm:   0 1px 4px rgba(17,16,9,0.06);
+  --shadow-md:   0 4px 16px rgba(17,16,9,0.10);
+  --shadow-lg:   0 12px 40px rgba(17,16,9,0.14);
+}
+
+.theme-dark {
+  --bg:          #090910;
+  --bg2:         #0f0f18;
+  --bg3:         #141420;
+  --surface:     #111120;
+  --border:      #1e1e32;
+  --border2:     #28283c;
+  --text:        #e8e6f0;
+  --text2:       #7a78a0;
+  --text3:       #44425a;
+  --sidebar-bg:  #07070e;
+  --sidebar-txt: #d8d6e8;
+  --sidebar-mut: #3a3850;
+  --sidebar-brd: rgba(255,255,255,0.04);
+  --shadow-sm:   0 1px 4px rgba(0,0,0,0.30);
+  --shadow-md:   0 4px 16px rgba(0,0,0,0.45);
+  --shadow-lg:   0 12px 40px rgba(0,0,0,0.6);
+}
+
+html, body { height: 100%; font-family: 'Syne', sans-serif; -webkit-font-smoothing: antialiased; }
+
+body { background: var(--bg); color: var(--text); transition: background 0.35s, color 0.35s; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes shimmer {
+  0%   { background-position: -800px 0; }
+  100% { background-position:  800px 0; }
+}
+@keyframes orbFloat {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50%       { transform: translateY(-22px) scale(1.04); }
+}
+@keyframes progressIn {
+  from { width: 0%; }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 99px; }

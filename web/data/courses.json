@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "AI Fundamentals",
+    "progress": 60,
+    "category": "Artificial Intelligence",
+    "tag": "Core",
+    "color": "#5b5fc7",
+    "icon": "🤖",
+    "description": "Explore the core concepts of Artificial Intelligence, from its history and types to ethics and neural networks.",
+    "lessons": [
+      { "id": 1, "title": "What is AI?", "duration": "12 min" },
+      { "id": 2, "title": "History of AI", "duration": "10 min" },
+      { "id": 3, "title": "Types of AI", "duration": "15 min" },
+      { "id": 4, "title": "AI Ethics", "duration": "14 min" },
+      { "id": 5, "title": "Neural Networks Intro", "duration": "18 min" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning Basics",
+    "progress": 20,
+    "category": "Machine Learning",
+    "tag": "Beginner",
+    "color": "#0fb57a",
+    "icon": "📊",
+    "description": "Learn the foundations of Machine Learning including supervised and unsupervised techniques, model evaluation, and regularization.",
+    "lessons": [
+      { "id": 1, "title": "Supervised Learning", "duration": "16 min" },
+      { "id": 2, "title": "Unsupervised Learning", "duration": "14 min" },
+      { "id": 3, "title": "Model Evaluation", "duration": "12 min" },
+      { "id": 4, "title": "Overfitting & Regularization", "duration": "20 min" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "React for Beginners",
+    "progress": 90,
+    "category": "Web Development",
+    "tag": "Frontend",
+    "color": "#e8a020",
+    "icon": "⚛️",
+    "description": "Master React from the ground up — components, state management, hooks, routing, and deploying your first app.",
+    "lessons": [
+      { "id": 1, "title": "JSX & Components", "duration": "15 min" },
+      { "id": 2, "title": "Props & State", "duration": "18 min" },
+      { "id": 3, "title": "Hooks", "duration": "20 min" },
+      { "id": 4, "title": "Effects & Lifecycle", "duration": "16 min" },
+      { "id": 5, "title": "Routing", "duration": "12 min" },
+      { "id": 6, "title": "Deployment", "duration": "10 min" }
+    ]
+  }
+]
